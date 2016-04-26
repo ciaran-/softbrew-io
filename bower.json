@@ -1,0 +1,21 @@
+{
+  "name": "softbrew-io",
+  "homepage": "http://softbrew.io",
+  "authors": [
+    "Ciaran McGhie <ciaranmcghie@gmail.com>"
+  ],
+  "description": "business website for Softbrew Digital",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}
