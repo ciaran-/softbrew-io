@@ -69,6 +69,15 @@ gulp.task('html', function(){
 
 });
 
+var surge = require('gulp-surge')
+
+gulp.task('deploy', [], function () {
+  return surge({
+    project: '.',         // Path to your static build directory
+    domain: 'softbrew.io'  // Your domain or Surge subdomain
+  })
+})
+
 // Clean
 gulp.task('clean', function() {
   return del(['dist/styles', 'dist/scripts', 'dist/images']);
@@ -76,7 +85,7 @@ gulp.task('clean', function() {
 
 // Default task
 gulp.task('default', ['clean'], function() {
-  gulp.start('pre-dist-styles', 'styles', 'scripts', 'images', 'html');
+  gulp.start('pre-dist-styles', 'styles', 'scripts', 'images', 'html', 'deploy');
 });
 
 // Watch

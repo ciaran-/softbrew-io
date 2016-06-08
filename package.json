@@ -1,0 +1,23 @@
+{
+  "name": "softbrew-io",
+  "version": "1.0.0",
+  "description": "Softbrew Website",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-surge": "^0.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciaran-/softbrew-io.git"
+  },
+  "author": "Ciaran McGhie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ciaran-/softbrew-io/issues"
+  },
+  "homepage": "https://github.com/ciaran-/softbrew-io#readme"
+}
